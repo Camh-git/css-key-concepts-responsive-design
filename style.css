@@ -41,7 +41,7 @@ img {
   max-width: 250px;
 }
 @media screen and (pointer: coarse) {
-  /*I saw some pages that talked about detecting using pointer, but couldn't find a foolproof solution*/
+  /*Had to put this on an apache server and look it up on my phone to test 😊*/
   #cat-ipsum {
     display: none;
   }
