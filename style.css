@@ -40,3 +40,39 @@ img {
   width: 10vw;
   max-width: 250px;
 }
+@media screen and (max-width: 480px) {
+  /*I saw some pages that talked about detecting using pointer, but couldn't find a foolproof solution*/
+  #cat-ipsum {
+    display: none;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2.25rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  .card {
+    font-size: 1.5rem;
+    /*background-color: green;*/
+  }
+}
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 2.75rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .card {
+    font-size: 1.75rem;
+    /*background-color: red;*/
+  }
+}
